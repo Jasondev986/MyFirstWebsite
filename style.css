@@ -1,0 +1,55 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    background: #f4f4f;
+    font: normal 15px Source Sans Pro;
+    line-height:1.5em;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-family: Source Sans Pro;
+}
+
+a:hover {
+    color:coral;
+}
+
+.top-nav {
+    right:300px;
+    padding:20px;
+    padding-top:25px;
+    margin-left:auto;
+    margin-right:200px;
+    width:fit-content;
+}
+
+.nav-button {
+    padding:15px;
+}
+
+.header-block {
+    height:350px;
+    background-color:bisque;
+}
+
+.hello-block {
+    margin-left:5%;
+    font-size:25px;
+    padding-left:200px;
+}
+
+.hello-block p {
+    font-size:20px;
+    font-style:italic;
+    padding-top:30px;
+}
+
+.hello-block h1, h2 {
+    padding-top:30px;
+}
+
