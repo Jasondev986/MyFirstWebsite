@@ -100,21 +100,3 @@ a:hover {
     width: 100%;
     font-size: 15px;
 }
-
-.intro {
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 350px;
-    font-size: large;
-    line-height: 27px;
-    width: 50%;
-    height: 50vh;
-}
-
-.intro p {
-    padding-bottom: 10px;
-}
-
-
-
-
