@@ -100,3 +100,13 @@ a:hover {
     width: 100%;
     font-size: 15px;
 }
+
+.about-me {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 350px;
+    font-size: large;
+    line-height: 27px;
+    width: 50%;
+    height: 60vh;
+}
