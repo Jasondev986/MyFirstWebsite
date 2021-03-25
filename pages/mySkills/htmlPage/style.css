@@ -100,3 +100,44 @@ a:hover {
     width: 100%;
     font-size: 15px;
 }
+
+.html {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 350px;
+    font-size: large;
+    line-height: 27px;
+    width: 51%;
+    height: 220vh;
+}
+
+.click-here {
+    font-size: large;
+    text-decoration: underline;
+}
+
+.click-here:hover {
+    color: blue;
+}
+
+#element-diagram {
+    width: 600px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.table, th, td {
+    border: 1px solid black;
+}
+
+
+.table td {
+    padding: 5px;
+    text-align: center;
+}
