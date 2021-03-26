@@ -108,7 +108,7 @@ a:hover {
     font-size: large;
     line-height: 27px;
     width: 51%;
-    height: 220vh;
+    height: 370vh;
 }
 
 .click-here {
@@ -141,3 +141,16 @@ a:hover {
     padding: 5px;
     text-align: center;
 }
+
+#inspect-1 {
+    width: 1100px;
+    border: 3px solid #333;
+    margin: 7px;
+}
+
+#inspect-2 {
+    width: 1100px;
+    border: 3px solid #333;
+    margin: 7px;
+}
+
