@@ -117,7 +117,7 @@ a:hover {
     margin: 7px;
 }
 
-#screenshot {
+.screenshot-terminal {
     width: 1000px;
     border: 3px solid #333;
     margin: 7px;
