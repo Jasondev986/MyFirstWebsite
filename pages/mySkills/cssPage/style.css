@@ -124,6 +124,10 @@ a:hover {
     width: 450px;
 }
 
+.hwImage {
+   width: 400px; 
+}
+
 .positioning, li {
     padding-top: 10px;
 }
