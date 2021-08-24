@@ -6,117 +6,119 @@
     <script src="https://kit.fontawesome.com/e74635d7ec.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header-block">
-        <nav class="top-nav">
-            <a class="nav-button" href="../../../index.html">Home</a>
-            <a class="nav-button" href="../../aboutMe/">About Me</a>
-            <a class="nav-button" href="../../contact/">Contact</a>
-        </nav>
-        
-        <div class="hello-block">
-            <h1>HTML</h1>
-            <h3>Jason Hoang</h3>
-            <p>My journey to becoming a programmer</p>
+    <div class="container">
+        <header class="header-block">
+            <nav class="top-nav">
+                <a class="nav-button" href="../../../index.html">Home</a>
+                <a class="nav-button" href="../../aboutMe/">About Me</a>
+                <a class="nav-button" href="../../contact/">Contact</a>
+            </nav>
+            
+            <div class="hello-block">
+                <h1>HTML</h1>
+                <h3>Jason Hoang</h3>
+                <p>My journey to becoming a programmer</p>
+            </div>
+        </header>
+
+        <div class="social-icons">
+            <div class="icon"><a href="https://www.instagram.com/jasen_hoang/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></div>
+            <div class="icon"><a href="https://www.facebook.com/profile.php?id=100014213494854" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></div>
+            <div class="icon"><a href="https://www.youtube.com/channel/UCSiUaGz5zPOpLezzNBQ_uRQ" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></div>
         </div>
-    </header>
 
-    <div class="social-icons">
-        <div class="icon"><a href="https://www.instagram.com/jasen_hoang/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></div>
-        <div class="icon"><a href="https://www.facebook.com/profile.php?id=100014213494854" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></div>
-        <div class="icon"><a href="https://www.youtube.com/channel/UCSiUaGz5zPOpLezzNBQ_uRQ" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></div>
+        <div class="my-skills">
+            <h2>My Skills</h2>
+            <a href="./">HTML</a>
+            <a href="../cssPage/">CSS</a>
+            <a href="../gitPage/">GIT</a>
+        </div>
+        <div class="html">
+            <h2>HTML</h2>
+            <p>
+                HTML (Hyper Text Markup Language) is a language that the web browser uses to show what you are seeing right now.
+                For example, when you right click anywhere on this page and then click inspect.
+            </p>
+            <img class="images" src="../../../images/inspect.png" alt="image of inspect">
+            
+            <p>
+                Everything under < html > is the HTML code.
+                It represents the structure of a web page and consist of elements that tell the web browser what to display on the webpage.
+            </p>
+            <h2>HTML Elements/Tags</h2>
+            <p>
+                An HTML element is evverything from the start and end tag.
+            </p>
+            <h3>Example:</h3>
+            <img id="element-diagram" src="../../../images/diagram.png" alt="diagram of element">
+            <p>
+                In every HTML file will have a < html > element that end with < /html > which is the whole html document. 
+                In the element will be another html element, < body > and end with the closing tag < /body > that represent the body of the document.
+                There are many different type of elements and tags so <a class="click-here" href="https://www.w3schools.com/tags/tag_comment.asp">click here for more info.</a> 
+            </p>
+            <h2>Attributes</h2>
+            <p>
+                HTML attributes give information about HTML elements. All HTML elements can have attributes and are always stated in the start tag.
+                Attributes like class's and id's are used to point to a specific element in css style sheet. Class atrributes are the same as id's but can be used for multiple elements, when id attributes 
+                are only used for one element where no other element can have a the same id. 
+            </p>
+            <h2>Inline and Block-level Elements</h2>
+            <p>
+                There are also inline and block elements. Inline elements are elements that take up as much space as needed and does not go into the next line.
+                Block-level elements always start on a new line and takes up the full width that is available.
+            </p>
+            <p>
+                keep in mind that some tags might not have an ending tag. Those are called self closing tags, and some tags might not have any content.
+            </p>
+            <h3>Examples of Block-level elements:</h3>
+            <table class="table">
+                <tr>
+                    <th>Start tag</th>
+                    <th>Content</th>
+                    <th>End tag</th>
+                </tr>
+                <tr>
+                    <td>< h1 ></td>
+                    <td> Header tag </td>
+                    <td>< /h1 ></td>
+                </tr>
+                <tr>
+                    <td>< div ></td>
+                    <td>Divider tag</td>
+                    <td>< /div ></td>
+                </tr>
+                <tr>
+                    <td>< p ></td>
+                    <td>Paragraph tag</td>
+                    <td>< /p ></td>
+                </tr>
+            </table>
+            <h3>Examples of inline elements:</h3>
+            <table class="table">
+                <tr>
+                    <th>Start tag</th>
+                    <th>Content</th>
+                    <th>End tag</th>
+                </tr>
+                <tr>
+                    <td>< a href="" ></td>
+                    <td>link tag</td>
+                    <td>< /a ></td>
+                </tr>
+                <tr>
+                    <td>< img ></td>
+                    <td>This is a self closig tag with no content*<td>
+                </tr>
+                <tr>
+                    <td>< i ></td>
+                    <td>Italic tag</td>
+                    <td>< /i ></td>
+                </tr>
+            </table>
+        </div>
+        <footer class="footer">
+            <p>Copyright &copy; Jason Hoang</p>
+        </footer>
     </div>
-
-    <div class="my-skills">
-        <h2>My Skills</h2>
-        <a href="./">HTML</a>
-        <a href="../cssPage/">CSS</a>
-        <a href="../gitPage/">GIT</a>
-    </div>
-    <div class="html">
-        <h2>HTML</h2>
-        <p>
-            HTML (Hyper Text Markup Language) is a language that the web browser uses to show what you are seeing right now.
-            For example, when you right click anywhere on this page and then click inspect.
-        </p>
-        <img class="images" src="../../../images/inspect.png" alt="image of inspect">
-        
-        <p>
-            Everything under < html > is the HTML code.
-            It represents the structure of a web page and consist of elements that tell the web browser what to display on the webpage.
-        </p>
-        <h2>HTML Elements/Tags</h2>
-        <p>
-            An HTML element is evverything from the start and end tag.
-        </p>
-        <h3>Example:</h3>
-        <img id="element-diagram" src="../../../images/diagram.png" alt="diagram of element">
-        <p>
-            In every HTML file will have a < html > element that end with < /html > which is the whole html document. 
-            In the element will be another html element, < body > and end with the closing tag < /body > that represent the body of the document.
-            There are many different type of elements and tags so <a class="click-here" href="https://www.w3schools.com/tags/tag_comment.asp">click here for more info.</a> 
-        </p>
-        <h2>Attributes</h2>
-        <p>
-             HTML attributes give information about HTML elements. All HTML elements can have attributes and are always stated in the start tag.
-            Attributes like class's and id's are used to point to a specific element in css style sheet. Class atrributes are the same as id's but can be used for multiple elements, when id attributes 
-            are only used for one element where no other element can have a the same id. 
-        </p>
-        <h2>Inline and Block-level Elements</h2>
-        <p>
-            There are also inline and block elements. Inline elements are elements that take up as much space as needed and does not go into the next line.
-            Block-level elements always start on a new line and takes up the full width that is available.
-        </p>
-        <p>
-            keep in mind that some tags might not have an ending tag. Those are called self closing tags, and some tags might not have any content.
-         </p>
-        <h3>Examples of Block-level elements:</h3>
-        <table class="table">
-            <tr>
-                <th>Start tag</th>
-                <th>Content</th>
-                <th>End tag</th>
-            </tr>
-            <tr>
-                <td>< h1 ></td>
-                <td> Header tag </td>
-                <td>< /h1 ></td>
-            </tr>
-            <tr>
-                <td>< div ></td>
-                <td>Divider tag</td>
-                <td>< /div ></td>
-            </tr>
-            <tr>
-                <td>< p ></td>
-                <td>Paragraph tag</td>
-                <td>< /p ></td>
-            </tr>
-        </table>
-        <h3>Examples of inline elements:</h3>
-        <table class="table">
-            <tr>
-                <th>Start tag</th>
-                <th>Content</th>
-                <th>End tag</th>
-            </tr>
-            <tr>
-                <td>< a href="" ></td>
-                <td>link tag</td>
-                <td>< /a ></td>
-            </tr>
-            <tr>
-                <td>< img ></td>
-                <td>This is a self closig tag with no content*<td>
-            </tr>
-            <tr>
-                <td>< i ></td>
-                <td>Italic tag</td>
-                <td>< /i ></td>
-            </tr>
-        </table>
-    </div>
-    <footer class="footer">
-		<p>Copyright &copy; Jason Hoang</p>
-	</footer>
 </body>
 </html>

@@ -111,13 +111,13 @@ a:hover {
 }
 
 .screenshots {
-    width: 1100px;
+    width: 500px;
     border: 3px solid #333;
     margin: 7px;
 }
 
 .screenshot-terminal {
-    width: 1000px;
+    width: 500px;
     border: 3px solid #333;
     margin: 7px;
     height: 500px;
