@@ -1,12 +1,22 @@
+html, body {
+    height: 100%;
+}
+
 body {
     font: normal 15px Source Sans Pro;
     line-height: 1.5em;
     margin: 0;
     padding: 0;
-    height: 100vh;
     position: relative;
 
 }
+
+
+.container {
+    min-height: 100%;
+
+}
+
 
 a {
     text-decoration: none;
@@ -90,14 +100,12 @@ a:hover {
 }
 
 .footer {
-    clear: right;
-    text-align: center;
-    /* position: absolute;
-    bottom: 0; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #333;
-    padding: 30px;
     color: white;
-    width: 100%;
     font-size: 15px;
 }
 
@@ -108,7 +116,6 @@ a:hover {
     font-size: large;
     line-height: 27px;
     width: 50%;
-    height: 50vh;
 }
 
 .intro p {

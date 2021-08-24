@@ -108,5 +108,25 @@ a:hover {
     font-size: large;
     line-height: 27px;
     width: 51%;
-    height: 370vh;
+  
 }
+
+#hello-world {
+    border: 2px solid #333;
+    width: 500px;
+}
+
+.inline-links {
+    font-size: large;
+}
+
+.images {
+    width: 500px;
+}
+
+.positioning, li {
+    padding-top: 10px;
+}
+
+
+

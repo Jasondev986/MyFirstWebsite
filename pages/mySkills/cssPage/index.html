@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CSS</title>
-  <link rel="stylesheet" href="./style.css">  
-    <script src="https://kit.fontawesome.com/e74635d7ec.js" crossorigin="anonymous"></script>
+    <title>CSS</title> 
+    <link rel="stylesheet" href="./style.css"> 
+    <script src="https://kit.fontawesome.com/e74635d7ec.js" crossorigin="anonymous"></script> 
 </head>
+
 <body>
     <header class="header-block">
         <nav class="top-nav">
@@ -34,7 +35,69 @@
     </div>
     <div class="css">
         <h2>CSS</h2>
-        <p></p>
+        <p>
+            CSS (Cascayding Style Sheet) is code we use to style a Web page. It describes how HTML elements are to be displayed on screen  including the design, layout and display for different devices and screen sizes.
+            You would make a seperate file for css and work on your css there rather than in your html file otherwise the html file would be very big and would get confusing to look at. 
+            How you would link the html and css together is to link your style sheet in the head of your html document. 
+        </p>
+        <h3>Example:</h3>
+      <img src="../../../images/cssScreenshot.png" alt="image of linking style sheet to html file">
+      <p>
+          For the elements that you want to style and position you would add either a class or id attribute to the start tag and name it. 
+          So when you go into your css file you can pin point that element. 
+      </p>
+      <p>
+          Lets style a header using css.
+      </p>
+      <h3>Example:</h3>
+      <img src="../../../images/exampleHeader.png" alt="image of html header tag with class of header" > 
+      <p>
+          To style this element we would go into a seperate css file and call it using a "." and the name of the class and curly brackets "{}".
+      </p>
+      <h3>Lets style this header:</h3>
+      <ul>
+          <li>text dark blue</li>
+          <li>background light blue</li>
+          <li>text center</li>
+          <li>change font</li>
+          <li>height of 50px</li>
+      </ul>
+      <img src="../../../images/exampleCss.png" alt="image of css styling, color: darkblue; background-color: lightblue; text-align: center;">
+      <p>
+          First I reseted the page by calling the body and having a margin and padding of 0/0px because there is a default margin and padding which will create a white border around your content. Then I called the header class and added curly brackets, in those curly brackets is a declaration with the color as the property and the darkblue as the value.
+          I then did backgrond-color as the property and added the value lightblue as the value. Then text-align which had the value center make the text go in the center of the page.
+          Font-family property with many different values as you can mix different fonts to create a font that you want. 
+      </p>
+      <img class="images" src="../../../images/declarationDiagram.png" alt="diagram of a declartion and value">
+      <p>
+          For colors you can either type in some of the already programmed colors or you can use hex codes. Hex codes are codes for colors, one example is #333 which is darkgrey color.
+          You can find many different hex codes online. <a class="inline-links" href="https://www.color-hex.com/">Click here for hex codes.</a> For fonts you can also search up online for 
+          different font-famlies and find one that suits you. 
+      </p>
+      <p>
+          This is what it will look like:
+      </p>
+      <img src="../../../images/exampleWebpage.png" alt="image of webpage with a darkblue header and light blue background">
+      <h2>Box Diagram</h2>
+      <img src="../../../images/box-model.png" alt="image of css box diagram">
+      <ul>
+          <li>content - The content of the box, where text and images appear.</li>
+          <li>padding - Clears an area around the content. The padding is transparent.</li>
+          <li>border - Aborder that goes aroundt he padding and content</li>
+          <li>margin - Clears an area outsie te border and is alaso transparent.</li>
+      </ul>
+      <p>You can add padding border margin etc. To the top, bottom, left and right.</p>
+    <h3>Example:</h3>
+    <img src="../../../images/paddingExample.png" alt="example of padding-top 10 pixels and padding-bottom 10 pixels.">
+    <p>There I added padding to the top and bottom 10 pixels. </p>
+      <h3 class="positioning">Positioning</h2>
+      <ul>
+        <li>static; (normal flow) html elemtns are positioned static by default.</li>
+        <li>relative; (relative to it's normal position) Top, right, bottom, and left properties of a relatively-positioned element will be adjusted away from its normal position. </li>
+        <li>absolute; (relative to it's nearest positioned parent)</li>
+        <li>fixed; (fixed when scrolling) The fixed position is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.</li>
+        <li>sticky; (switches between relative to fixed based on scroll postion)</li>
+      </ul>
     </div>
     <footer class="footer">
 		<p>Copyright &copy; Jason Hoang</p>

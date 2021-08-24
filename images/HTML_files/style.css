@@ -1,7 +1,3 @@
-html, body {
-    height: 100%;
-}
-
 body {
     font: normal 15px Source Sans Pro;
     line-height: 1.5em;
@@ -10,10 +6,6 @@ body {
     height: 100vh;
     position: relative;
 
-}
-
-.container {
-    min-height: 100%;
 }
 
 a {
@@ -98,21 +90,60 @@ a:hover {
 }
 
 .footer {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    clear: right;
+    text-align: center;
+    /* position: absolute;
+    bottom: 0; */
     background-color: #333;
+    padding: 30px;
     color: white;
+    width: 100%;
     font-size: 15px;
 }
 
-.contact {
+.html {
     margin-top: 50px;
     margin-left: 200px;
     margin-right: 350px;
     font-size: large;
     line-height: 27px;
-    width: 50%;
-    height: 50vh;
+    width: 51%;
+    height: 370vh;
 }
+
+.click-here {
+    font-size: large;
+    text-decoration: underline;
+}
+
+.click-here:hover {
+    color: blue;
+}
+
+#element-diagram {
+    width: 600px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.table, th, td {
+    border: 1px solid black;
+}
+
+
+.table td {
+    padding: 5px;
+    text-align: center;
+}
+
+.images {
+    border: 3px solid #333;
+    margin: 7px;
+}
+
